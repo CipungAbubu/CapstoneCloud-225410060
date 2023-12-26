@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce8d5; /* Warna latar belakang kuning muda */
+  background-image: url('image.jpg'); /* Nama file gambar */
+  background-size: cover; /* Menyesuaikan ukuran gambar agar memenuhi latar belakang */
+  background-position: center; /* Posisi gambar di tengah latar belakang */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #483D8B;
+  font-size: 76px;
+  font-family: 'Blackadder ITC', cursive;
+  border-bottom: 2px solid #483D8B; /* Menambahkan garis bawah */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 220px; /* Lebar gambar diperbesar */
+  height: 400px; /* Tinggi gambar diperbesar */
+  border-radius: 20%; /* Bentuk foto diubah menjadi lebih oval */
+  margin-right: 20px;
+  border: 3px solid #ff7f50; /* Warna jingga */
+}
+
+.info {
+  max-width: 400px;
+}
+
+.info p {
+  margin: 10px 0;
+  color: #ff6b81; /* Merah muda pastel */
+  font-family: Courier New;
+  font-size: 18px; /* Ukuran huruf diperbesar */
+}
+
+.info p strong {
+  color: #45aaf2; /* Biru cerah */
+  font-weight: bold;
+  margin-right: 5px;
+  font-family: Courier New;
+}
+
